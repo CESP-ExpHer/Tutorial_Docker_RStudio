@@ -62,7 +62,6 @@ sudo docker run -d -p 8788:8787 -e PASSWORD=123 -v PATH_IN_YOUR_HOST_MACHINE/doc
 * If it runs without any error, you see a string of characters and it goes to the next line.
 * Now, open a web browser and type the following in the address bar (You could also use your local IP address instead of **"localhost"**):
 ```
-
 http://localhost:8788
 ```
 * For username, type **"rstudio"** and for the password, type **"123"**. Now you can use the RStudio with pre-installed three packages.
